@@ -52,6 +52,7 @@ function animate() {
     // PULISCO L'AREA DA ANIMARE
     ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 
+    // CALCOLO LA POSIZIONE DEL PROSSIMO FRAME DELL'ANIMAZIONE DA DISEGNARE
     let position = Math.floor(gameFrame/staggerFrame) % spriteAnimation["idle"].loc.length;
     frameX = spriteWidth * position;
 

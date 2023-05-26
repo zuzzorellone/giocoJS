@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20ebc0cb-5f7e-4a48-bb50-1a473d45f78f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GiocoJS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shadow_dog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="20ebc0cb-5f7e-4a48-bb50-1a473d45f78f" name="Changes" comment="Added comment on the calculation of the variable 'position'">
+      <change afterPath="$PROJECT_DIR$/animation/animation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animation/animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/layer-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/layer-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/layer-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/layer-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/layer-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/animation/animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_dog.png" beforeDir="false" afterPath="$PROJECT_DIR$/animation/shadow_dog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +31,17 @@
       <list>
         <option value="package.json" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zuzzorellone &lt;christian.esposito96@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2QILTZWOD7P3hNFon9Ke1oo0wcn" />
@@ -39,34 +50,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/background" />
+      <recent name="$PROJECT_DIR$/animation" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="hello.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hello.js" working-dir="$PROJECT_DIR$">
+    <configuration name="animation.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/animation/animation.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.hello.js" />
+        <item itemvalue="Node.js.animation.js" />
       </list>
     </recent_temporary>
   </component>
@@ -78,8 +91,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685036156669</updated>
-      <workItem from="1685036157670" duration="5071000" />
+      <workItem from="1685036157670" duration="5875000" />
+      <workItem from="1685101277247" duration="7703000" />
     </task>
+    <task id="LOCAL-00001" summary="Iniziato corso di animazione">
+      <created>1685041314035</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685041314035</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Course started">
+      <created>1685041590542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685041590542</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Course started">
+      <created>1685041661796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685041661796</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added comment on the calculation of the variable 'position'">
+      <created>1685041799690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685041799690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +138,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Iniziato corso di animazione" />
+    <MESSAGE value="Course started" />
+    <MESSAGE value="Added comment on the calculation of the variable 'position'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comment on the calculation of the variable 'position'" />
   </component>
 </project>
